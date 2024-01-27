@@ -17,7 +17,7 @@ public class Login {
             public void actionPerformed(ActionEvent e) {
                 String dbURL = "jdbc:mysql://localhost:3306/registro";
                 String dbUsername = "root";
-                String dbPassword = "1234";
+                String dbPassword = "";
                 java.sql.Connection connection = null;
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
